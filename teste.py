@@ -80,7 +80,7 @@ with col_right:
 # 🔥 NOVO BLOCO (WhatsApp clicável no final)
 st.markdown(f"""
     <div style="text-align: center; margin-top: 10px;">
-        <a href="https://wa.me/5583998234415" target="_blank">
+        <a href="https://wa.me/5521997454943" target="_blank">
             <img src="data:image/png;base64,{zap_base64}" width="100">
         </a>
     </div>
