@@ -9,8 +9,8 @@ def get_base64_image(path):
     with open(path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-img_base64 = get_base64_image("star.png")
-zap_base64 = get_base64_image("zap2026.png")
+img_base64 = get_base64_image("Fiat-Abarth-Logo-Vector.svg--300x295.png")
+zap_base64 = get_base64_image("zaplogo.png")
 
 # TOPO (imagem clicável)
 col1, col2, col3 = st.columns([1,2,1])
@@ -32,7 +32,7 @@ col_left, col_right = st.columns([3,1])
 with col_left:
     st.markdown("""
     <div style='margin-bottom:30px; font-size:30px;'>
-        <b>Nome Dinaldo Jorge</b>
+        <b>Nome Vitor Aquino</b>
     </div>
     """, unsafe_allow_html=True)
 
@@ -49,7 +49,7 @@ with col_left:
         ">
         """, unsafe_allow_html=True)
 
-        st.image("dino2026.png", width=800)
+        st.image("WhatsApp Image 2026-04-15 at 10.49.43.png", width=800)
 
         st.markdown("</div>", unsafe_allow_html=True)
 
@@ -63,16 +63,15 @@ with col_left:
             width: 100%;
             max-width: none;
         ">
-            <b>Sobre Dinaldo:<br>
-            Dinaldo Jorge, 49 anos, é um profissional experiente na área de sistemas de telecomunicações,
-            destacando-se pela sólida formação técnica e expertise em infraestrutura de rede, conectividade
-            e suporte de TI.Com vasta vivência no mercado, busca posições que exijam soluções inovadoras em
-            redes, segurança digital e administração de sistemas.
+            <b>Sobre Vitor Aquino:<br>
+           Nasci no Rio de Janeiro e vivi grande parte da minha infância nessa cidade, onde tive minhas primeiras experiências de vida.
+No ano de 2020, especificamente no período do Natal, mudei-me para o Nordeste por questões familiares. Essa mudança marcou um novo capítulo na minha trajetória, trazendo
+desafios de adaptação, mas também muitas oportunidades de crescimento pessoal e acadêmico.
         </div>
         """, unsafe_allow_html=True)
 
     st.markdown("<div style='margin-top:30px;'>", unsafe_allow_html=True)
-    st.link_button("Acessar", "http://lattes.cnpq.br/4494611683890258")
+    st.link_button("Acessar", "https://sites.google.com/academico.ifpb.edu.br/vitor/in%C3%ADcio")
     st.markdown("</div>", unsafe_allow_html=True)
 
 with col_right:
